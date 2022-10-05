@@ -1,0 +1,48 @@
+body, ul, li{
+ margin: 0px;
+ padding: 0px;
+ list-style:none;
+}
+.header-style{
+ height: 48px;
+ background-color: #222A35;
+}
+.header-style > ul{
+ display: inline-block;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.header-style > ul > li{
+ display: inline-block;
+}
+.header-style > ul > li > a{
+ color: white;
+ text-decoration: none;
+ padding: 0px 30px;
+ display: block;
+}
+.header-style > ul > li:hover > a{
+ color: rgb(240, 195, 112);
+}
+.header-style ul ul a{
+ text-decoration: none;
+ color: white;
+}
+.header-style li {
+ position: relative;
+}
+.header-style  li  a{
+ padding: 0px 30px;
+}
+.header-style ul ul {
+ text-decoration: none;
+ color: white;
+ background-color: #222A35;
+ display: none;
+ position: absolute;
+ border-radius: 7%;
+}
+.header-style li:hover > ul{
+ display: block;
+}
