@@ -29,6 +29,12 @@ body, ul, li{
  text-decoration: none;
  color: white;
 }
+.header-style ul ul > li{
+  padding: 5px 0px;  
+}
+.header-style ul ul a:hover{
+ color: rgb(240, 195, 112);
+}
 .header-style li {
  position: relative;
 }
@@ -45,4 +51,19 @@ body, ul, li{
 }
 .header-style li:hover > ul{
  display: block;
+}
+.footer-style{
+ border-top: 1px solid #222A35;
+ position: absolute;
+ bottom: 0px;
+ height: 150px;
+ background-color: #222A35;
+ color: white;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.footer-style > span {
+ margin: 30px;
 }
