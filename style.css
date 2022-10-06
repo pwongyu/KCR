@@ -52,6 +52,7 @@ body, ul, li{
 .header-style li:hover > ul{
  display: block;
 }
+/* 여기까지 헤더 */
 .footer-style{
  border-top: 1px solid #222A35;
  position: absolute;
