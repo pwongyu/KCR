@@ -14,15 +14,16 @@ body, ul, li{
  align-items: center;
 }
 .header-style > ul > li{
- display: block;
+ display: inline-block;
 }
 .header-style > ul > li > a{
  color: white;
  text-decoration: none;
+ position: relative;
+ bottom: 7px;
  padding: 5px 30px;
  display: block;
- position: relative;
- bottom: 8px;
+ 
 }
 .header-style > ul > li:hover > a{
  color: rgb(240, 195, 112);
@@ -30,7 +31,8 @@ body, ul, li{
 .header-style ul ul a{
  text-decoration: none;
  color: white;
- display: block;
+ position: relative;
+ bottom: 10px;
 }
 .header-style ul ul > li{
   padding: 5px 0px;  
@@ -49,10 +51,9 @@ body, ul, li{
  color: white;
  background-color: #222A35;
  display: none;
- position: absolute;
- top: 23px;
  width: 166px;
- padding-bottom: 10px;
+ position: absolute;
+ padding-top: 8px;
  border-bottom-left-radius: 7%;
  border-bottom-right-radius: 7%;
 }
@@ -64,7 +65,7 @@ body, ul, li{
 /* 여기까지 헤더 */
 .footer-style{
  border-top: 1px solid #222A35;
- position: absolute;
+ position : absolute;
  bottom: 0px;
  height: 150px;
  background-color: #222A35;
@@ -76,4 +77,9 @@ body, ul, li{
 }
 .footer-style > span {
  margin: 30px;
+}
+.box{
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
 }
