@@ -14,13 +14,15 @@ body, ul, li{
  align-items: center;
 }
 .header-style > ul > li{
- display: inline-block;
+ display: block;
 }
 .header-style > ul > li > a{
  color: white;
  text-decoration: none;
- padding: 0px 30px;
+ padding: 5px 30px;
  display: block;
+ position: relative;
+ bottom: 8px;
 }
 .header-style > ul > li:hover > a{
  color: rgb(240, 195, 112);
@@ -28,6 +30,7 @@ body, ul, li{
 .header-style ul ul a{
  text-decoration: none;
  color: white;
+ display: block;
 }
 .header-style ul ul > li{
   padding: 5px 0px;  
@@ -47,7 +50,11 @@ body, ul, li{
  background-color: #222A35;
  display: none;
  position: absolute;
- border-radius: 7%;
+ top: 23px;
+ width: 166px;
+ padding-bottom: 10px;
+ border-bottom-left-radius: 7%;
+ border-bottom-right-radius: 7%;
 }
 .header-style li:hover > ul{
  display: block;
