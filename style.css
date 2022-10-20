@@ -68,7 +68,7 @@ body, ul, li{
 /* 헤더 */
 
 .slideshow {
-  background: #000;
+  background: rgb(230, 227, 227);
   height: 465px;
   min-width: 960px;
   overflow: hidden;
@@ -81,8 +81,9 @@ body, ul, li{
 }
 .slideshow_slides a{
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 .slideshow_nav a{
   width: 71px;
@@ -92,7 +93,30 @@ body, ul, li{
   top: 50%;
   transform: translateY(-50%);
 }
-
+.slideshow_nav a.prev{
+  margin-left: -480px;
+}
+.slideshow_nav a.next{
+  margin-left: 409px;
+}
+.indicator {
+  position: relative;
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+}
+.indicator a {
+ width:8px;
+ height:8px;
+ margin: 0px 5px;
+ background-color:white;
+ text-indent: -999em;
+}
+.indicator a.active{
+  background-color: black;
+}
 
 
 
